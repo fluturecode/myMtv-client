@@ -1,10 +1,18 @@
 import React from "react"
+import logo from "./logo.jpeg"
+import styled from "@emotion/styled"
 
 const Header = () => {
+	const HeaderContainer = styled.div`
+		background-color: black;
+		color: white;
+		padding: 5px;
+	`
 	return (
-		<div>
-			<h1>I am the header</h1>
-		</div>
+		<HeaderContainer>
+			<h1>I want MyMTV</h1>
+			<link>{logo}</link>
+		</HeaderContainer>
 	)
 }
 
