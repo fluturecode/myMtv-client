@@ -11,7 +11,7 @@ const Header = () => {
 	return (
 		<HeaderContainer>
 			<h1>I want MyMTV</h1>
-			<link>{logo}</link>
+			{/* <link>{logo}</link> */}
 		</HeaderContainer>
 	)
 }
