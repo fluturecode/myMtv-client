@@ -17,8 +17,8 @@ const Header = () => {
 
 	return (
 		<HeaderContainer>
-			<h1>I want MyMTV</h1>
 			<img src={mtv_logo} />
+			<h1>I want MyMTV</h1>
 		</HeaderContainer>
 	)
 }
