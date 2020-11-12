@@ -1,6 +1,6 @@
 import "./App.css"
 import Header from "./Header"
-import Video from "./Video"
+import Videos from "./Videos"
 import styled from "@emotion/styled"
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 	return (
 		<AppContainer>
 			<Header />
-			<Video />
+			<Videos />
 		</AppContainer>
 	)
 }

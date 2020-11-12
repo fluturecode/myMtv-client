@@ -2,16 +2,17 @@ import React from "react"
 import YouTube from "react-youtube"
 import styled from "@emotion/styled"
 
-const Video = ({ title, artist, video }) => {
+const Videos = () => {
+	// Add props later --> { title, artist, video }
+
 	const VideoRow = styled.div`
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 20px;
-		border: 2px green bold;
 	`
 	const VideoContainer = styled.div`
-		margin: 10px;
+		margin: 20px;
 		border-radius: 10px;
 		overflow: hidden;
 		box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
@@ -49,4 +50,4 @@ const Video = ({ title, artist, video }) => {
 	)
 }
 
-export default Video
+export default Videos

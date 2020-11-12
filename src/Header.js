@@ -6,26 +6,31 @@ import Avatar from "@material-ui/core/Avatar"
 const Header = () => {
 	const HeaderContainer = styled.div`
 		background-color: black;
+		height: 80px;
+		border-radius: 10px;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	`
-	const LogoContainer = styled.div`
-		width: 80px;
-		object-fit: contain;
-		position: relative;
+		padding: 30px;
 	`
 
 	const HeaderText = styled.h1`
 		color: white;
+		&hover {
+		}
+	`
+	// const LogoContainer = styled.img`
+	// 	object-fit: contain;
+	// `
+	const LogoImage = styled.img`
+		object-fit: contain;
 	`
 
 	return (
 		<>
 			<HeaderContainer>
-				<LogoContainer>
-					<img className='header__icon' src={mtv_logo} alt='mtv log' />
-				</LogoContainer>
-				<HeaderText>I Want MyMTV</HeaderText>
+				<HeaderText>I Want My MTV...</HeaderText>
+				<LogoImage src={mtv_logo} />
 				<Avatar />
 			</HeaderContainer>
 		</>
