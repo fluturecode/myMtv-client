@@ -1,36 +1,34 @@
 import React from "react"
 import mtv_logo from "./mtv_logo.jpg"
-// import styled from "@emotion/styled"
-import "./Header.css"
+import styled from "@emotion/styled"
 import Avatar from "@material-ui/core/Avatar"
 
 const Header = () => {
-	// const HeaderContainer = styled.div`
-	// 	background-color: black;
-	// 	color: white;
-	// 	padding: 5px;
-	// `
-	// // const Logo = styled.Logo`
-	// // 	width: 80px;
-	// // 	object-fit: contain;
-	// // 	position: relative;
-	// // 	border: 2px white;
-	// // `
+	const HeaderContainer = styled.div`
+		background-color: black;
+		justify-content: space-between;
+		align-items: center;
+	`
+	const LogoContainer = styled.div`
+		width: 80px;
+		object-fit: contain;
+		position: relative;
+	`
+
+	const HeaderText = styled.h1`
+		color: white;
+	`
 
 	return (
-		<div className='header'>
-			<div className='header__left'>
-				<img className='header__icon' src={mtv_logo} alt='mtv log' />
-			</div>
-			<div className='header__center'>
-				<div className='center__text'>
-					<h1>I Want MyMTV</h1>
-				</div>
-			</div>
-			<div className='header__right'>
+		<>
+			<HeaderContainer>
+				<LogoContainer>
+					<img className='header__icon' src={mtv_logo} alt='mtv log' />
+				</LogoContainer>
+				<HeaderText>I Want MyMTV</HeaderText>
 				<Avatar />
-			</div>
-		</div>
+			</HeaderContainer>
+		</>
 	)
 }
 

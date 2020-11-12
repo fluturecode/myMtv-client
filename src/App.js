@@ -8,12 +8,6 @@ function App() {
 		background-color: grey;
 		padding: 20px;
 	`
-	// const VideoContainer = styled.div`
-	// 	color: white;
-	// 	padding: 200px;
-	// 	display: flex;
-	// `
-
 	return (
 		<AppContainer>
 			<Header />
