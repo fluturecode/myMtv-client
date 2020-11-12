@@ -4,18 +4,22 @@ import styled from "@emotion/styled"
 
 const Video = ({ title, artist, video }) => {
 	const VideoContainer = styled.div`
-		.video {
-			margin: 10px;
-			border-radius: 10px;
-			overflow: hidden;
-		}
+		margin: 10px;
+		border-radius: 10px;
+		overflow: hidden;
 	`
 
 	return (
 		<div className='video'>
-			<YouTube videoId='5HI_xFQWiYU' />
-			<YouTube videoId='iIpfWORQWhU' />
-			<YouTube videoId='yRYFKcMa_Ek' />
+			<VideoContainer>
+				<YouTube videoId='5HI_xFQWiYU' />
+			</VideoContainer>
+			<VideoContainer>
+				<YouTube videoId='iIpfWORQWhU' />
+			</VideoContainer>
+			<VideoContainer>
+				<YouTube videoId='yRYFKcMa_Ek' />
+			</VideoContainer>
 		</div>
 	)
 }
