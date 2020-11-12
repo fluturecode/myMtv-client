@@ -6,6 +6,7 @@ import styled from "@emotion/styled"
 function App() {
 	const AppContainer = styled.div`
 		background-color: grey;
+		padding: 20px;
 	`
 	// const VideoContainer = styled.div`
 	// 	color: white;

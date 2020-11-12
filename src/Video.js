@@ -8,18 +8,39 @@ const Video = ({ title, artist, video }) => {
 		border-radius: 10px;
 		overflow: hidden;
 	`
+	const VideoRow = styled.div`
+		display: flex;
+		padding: 20px;
+		border: 2px green bold;
+	`
+	const OneVideo = styled.div`
+		border: 2px red bold;
+	`
 
 	return (
 		<div className='video'>
-			<VideoContainer>
-				<YouTube videoId='5HI_xFQWiYU' />
-			</VideoContainer>
-			<VideoContainer>
-				<YouTube videoId='iIpfWORQWhU' />
-			</VideoContainer>
-			<VideoContainer>
-				<YouTube videoId='yRYFKcMa_Ek' />
-			</VideoContainer>
+			<VideoRow>
+				<VideoContainer>
+					<YouTube videoId='5HI_xFQWiYU' />
+				</VideoContainer>
+				<VideoContainer>
+					<YouTube videoId='iIpfWORQWhU' />
+				</VideoContainer>
+				<VideoContainer>
+					<YouTube videoId='yRYFKcMa_Ek' />
+				</VideoContainer>
+			</VideoRow>
+			<VideoRow>
+				<VideoContainer>
+					<YouTube videoId='5HI_xFQWiYU' />
+				</VideoContainer>
+				<VideoContainer>
+					<YouTube videoId='iIpfWORQWhU' />
+				</VideoContainer>
+				<VideoContainer>
+					<YouTube videoId='yRYFKcMa_Ek' />
+				</VideoContainer>
+			</VideoRow>
 		</div>
 	)
 }

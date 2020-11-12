@@ -23,7 +23,9 @@ const Header = () => {
 				<img className='header__icon' src={mtv_logo} alt='mtv log' />
 			</div>
 			<div className='header__center'>
-				<h1>I Want MyMTV</h1>
+				<div className='center__text'>
+					<h1>I Want MyMTV</h1>
+				</div>
 			</div>
 			<div className='header__right'>
 				<Avatar />
