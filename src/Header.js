@@ -12,6 +12,7 @@ const Header = () => {
 		justify-content: space-between;
 		align-items: center;
 		padding: 30px;
+		box-shadow: 0px 6px 18px -5px rgba(0, 0, 0, 0.75);
 	`
 
 	const HeaderText = styled.h1`
