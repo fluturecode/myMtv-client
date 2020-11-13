@@ -16,6 +16,7 @@ const Header = () => {
 
 	const HeaderText = styled.h1`
 		color: white;
+		font-style: italic;
 		&hover {
 		}
 	`
@@ -23,7 +24,9 @@ const Header = () => {
 	// 	object-fit: contain;
 	// `
 	const LogoImage = styled.img`
+		height: 120px;
 		object-fit: contain;
+		margin-right: 60px;
 	`
 
 	return (
