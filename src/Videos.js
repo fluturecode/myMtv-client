@@ -5,6 +5,13 @@ import styled from "@emotion/styled"
 const Videos = () => {
 	// Add props later --> { title, artist, video }
 
+	const VideosContainer = styled.div`
+		background-color: #575352;
+		margin-top: 20px;
+		/* border: 2px black solid; */
+		border-radius: 10px;
+	`
+
 	const VideoRow = styled.div`
 		display: flex;
 		justify-content: space-between;
@@ -15,7 +22,7 @@ const Videos = () => {
 		margin: 20px;
 		border-radius: 10px;
 		overflow: hidden;
-		box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 6px 18px -2px rgba(0, 0, 0, 0.75);
 		&:hover {
 			transform: scale(1.07);
 			transition: 0.2s ease-in;
@@ -23,7 +30,7 @@ const Videos = () => {
 	`
 
 	return (
-		<div className='video'>
+		<VideosContainer>
 			<VideoRow>
 				<VideoContainer>
 					<YouTube videoId='R8AOAap6_k4' />
@@ -46,7 +53,7 @@ const Videos = () => {
 					<YouTube videoId='yRYFKcMa_Ek' />
 				</VideoContainer>
 			</VideoRow>
-		</div>
+		</VideosContainer>
 	)
 }
 
