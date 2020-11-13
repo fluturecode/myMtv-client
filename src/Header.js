@@ -20,19 +20,18 @@ const Header = () => {
 		&hover {
 		}
 	`
-	// const LogoContainer = styled.img`
-	// 	object-fit: contain;
-	// `
+
 	const LogoImage = styled.img`
 		height: 120px;
 		object-fit: contain;
 		margin-right: 60px;
+		border-radius: 10px;
 	`
 
 	return (
 		<>
 			<HeaderContainer>
-				<HeaderText>I Want My MTV...</HeaderText>
+				<HeaderText>I Want My....</HeaderText>
 				<LogoImage src={mtv_logo} />
 				<Avatar />
 			</HeaderContainer>

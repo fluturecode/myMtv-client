@@ -14,11 +14,13 @@ const Videos = () => {
 
 	const VideoRow = styled.div`
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		align-items: center;
 		padding: 20px;
 	`
 	const VideoContainer = styled.div`
+		// One single video
+		width: 640px;
 		margin: 20px;
 		border-radius: 10px;
 		overflow: hidden;
@@ -36,18 +38,20 @@ const Videos = () => {
 					<YouTube videoId='R8AOAap6_k4' />
 				</VideoContainer>
 				<VideoContainer>
-					<YouTube videoId='iIpfWORQWhU' />
-				</VideoContainer>
-				<VideoContainer>
-					<YouTube videoId='Zi_XLOBDo_Y' />
+					<YouTube videoId='IGVZOLV9SPo' />
 				</VideoContainer>
 			</VideoRow>
 			<VideoRow>
 				<VideoContainer>
-					<YouTube videoId='Y3ywicffOj4' />
+					<YouTube videoId='Zi_XLOBDo_Y' />
 				</VideoContainer>
 				<VideoContainer>
-					<YouTube videoId='yG07WSu7Q9w' />
+					<YouTube videoId='Y3ywicffOj4' />
+				</VideoContainer>
+			</VideoRow>
+			<VideoRow>
+				<VideoContainer>
+					<YouTube videoId='kxNJV83EMJw' />
 				</VideoContainer>
 				<VideoContainer>
 					<YouTube videoId='yRYFKcMa_Ek' />
