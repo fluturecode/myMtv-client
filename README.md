@@ -23,8 +23,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 This app was deployed with FIREBASE. To deploy, create your project in Firebase [https://firebase.google.com/] .\
  From the terminal "firebase init".\
  Select "Hosting" and find your project.\
- "Use as public directory" - type "build" (do not say 'yes' or you will not be able to deploy the app properly).\
- "Configure as a single-page app" - type "yes".\
+ "Use as public directory" - input "build" (do not say 'yes' or the app will not deploy properly).\
+ "Configure as a single-page app" - "yes".\
  "Setup automatic builds and deploys with GitHub?" - type "no".\
   Before deployment run "yarn run build.\
  "Firebase deploy"
