@@ -7,8 +7,6 @@ const Videos = () => {
 		{ videoId: "iIpfWORQWhU" },
 		{ videoId: "yRYFKcMa_Ek" },
 		{ videoId: "5HI_xFQWiYU" },
-		{ videoId: "iIpfWORQWhU" },
-		{ videoId: "yRYFKcMa_Ek" },
 	]
 	const VideosContainer = styled.div`
 		background-color: #575352;
@@ -20,6 +18,7 @@ const Videos = () => {
 		justify-content: space-evenly;
 		align-items: center;
 		padding: 20px;
+		flex-wrap: wrap;
 	`
 
 	return (
