@@ -3,10 +3,12 @@ import Video from "./Video.js"
 
 const Videos = () => {
 	const videoList = [
-		{ videoId: "5HI_xFQWiYU" },
-		{ videoId: "iIpfWORQWhU" },
-		{ videoId: "yRYFKcMa_Ek" },
-		{ videoId: "5HI_xFQWiYU" },
+		{ videoId: "R8AOAap6_k4" },
+		{ videoId: "uxX2gA18grk" },
+		{ videoId: "N3oCS85HvpY" },
+		{ videoId: "aGSKrC7dGcY" },
+		{ videoId: "kxNJV83EMJw" },
+		{ videoId: "Y3ywicffOj4" },
 	]
 	const VideosContainer = styled.div`
 		background-color: #575352;
