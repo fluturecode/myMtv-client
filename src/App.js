@@ -7,6 +7,7 @@ function App() {
 	const AppContainer = styled.div`
 		background-color: grey;
 		padding: 20px;
+		height: 100%;
 	`
 	return (
 		<AppContainer>
