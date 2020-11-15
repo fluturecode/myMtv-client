@@ -1,18 +1,24 @@
-// import YouTube from "react-youtube"
-// import styled from "@emotion/styled"
+import YouTube from "react-youtube"
+import styled from "@emotion/styled"
 
-// const VideoContainer = styled.div``
+function Video({ video }) {
+	const VideoPlayer = styled.div`
+		width: 640px;
+		margin: 20px;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0px 6px 18px -2px rgba(0, 0, 0, 0.75);
+		&:hover {
+			transform: scale(1.07);
+			transition: 0.28s ease-in;
+		}
+	`
 
-// function Video() {
-// 	return (
-// 		<VideoContainer>
-// 			<h2>{artist}</h2>
-// 			<h3>{title}</h3>
-// 			<div className='video__player'>
-// 				<YouTube videoId={video} />
-// 			</div>
-// 		</VideoContainer>
-// 	)
-// }
+	return (
+		<VideoPlayer>
+			<YouTube videoId={video} />
+		</VideoPlayer>
+	)
+}
 
-// export default Video
+export default Video
