@@ -25,6 +25,6 @@ This app was deployed with FIREBASE. To deploy, create your project in Firebase 
  Select "Hosting" and find your project.\
  "Use as public directory" - input "build" (do not say 'yes' or the app will not deploy properly).\
  "Configure as a single-page app" - "yes".\
- "Setup automatic builds and deploys with GitHub?" - type "no".\
+ "Setup automatic builds and deploys with GitHub?" - "no".\
   Before deployment run "yarn run build.\
  "Firebase deploy"
