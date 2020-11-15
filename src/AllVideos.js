@@ -11,9 +11,9 @@ function AllVideos() {
 		{ videoId: "yRYFKcMa_Ek" },
 	]
 
-	const VideoContainer = styled.div``
+	// const VideoContainer = styled.div``
 
-	return videos.map((video) => <YouTube videoId={video} />)
+	return videos.map((video) => <YouTube video={videos.videoId} />)
 }
 
 export default AllVideos
