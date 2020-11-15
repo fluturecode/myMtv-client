@@ -4,9 +4,9 @@ import Video from "./Video.js"
 const Videos = () => {
 	const videoList = [
 		{ videoId: "R8AOAap6_k4" },
-		{ videoId: "uxX2gA18grk" },
-		{ videoId: "N3oCS85HvpY" },
 		{ videoId: "aGSKrC7dGcY" },
+		{ videoId: "N3oCS85HvpY" },
+		{ videoId: "uxX2gA18grk" },
 		{ videoId: "kxNJV83EMJw" },
 		{ videoId: "Y3ywicffOj4" },
 	]

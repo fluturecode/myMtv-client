@@ -27,7 +27,7 @@ const Header = () => {
 	const LogoImage = styled.img`
 		height: 140%;
 		object-fit: contain;
-		margin-right: 60px;
+		margin-right: 5%;
 		border-radius: 10px;
 		position: relative;
 	`
@@ -35,7 +35,6 @@ const Header = () => {
 		background-color: white;
 		width: 40px;
 		padding: 8px;
-
 		object-fit: contain;
 		border-radius: 100%;
 	`
