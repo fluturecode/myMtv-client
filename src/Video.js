@@ -14,7 +14,6 @@ function Video({ video }) {
 			transition: 0.28s ease-in;
 		}
 	`
-
 	return (
 		<VideoPlayer>
 			<YouTube videoId={video} />

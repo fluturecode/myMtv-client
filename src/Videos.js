@@ -3,6 +3,8 @@ import Video from "./Video.js"
 
 const Videos = () => {
 	const videoList = [
+		{ videoId: "wTP2RUD_cL0" },
+		{ videoId: "8SbUC-UaAxE" },
 		{ videoId: "R8AOAap6_k4" },
 		{ videoId: "aGSKrC7dGcY" },
 		{ videoId: "N3oCS85HvpY" },
