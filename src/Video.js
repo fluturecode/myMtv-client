@@ -1,47 +1,23 @@
-import React from "react"
 import YouTube from "react-youtube"
 import styled from "@emotion/styled"
 
-const Video = ({ title, artist, video }) => {
-	const VideoContainer = styled.div`
-		margin: 10px;
+function Video({ video }) {
+	const VideoPlayer = styled.div`
+		max-width: 640px;
+		object-fit: contain;
+		margin: 20px;
 		border-radius: 10px;
 		overflow: hidden;
+		box-shadow: 0px 6px 18px -2px rgba(0, 0, 0, 0.75);
+		&:hover {
+			transform: scale(1.07);
+			transition: 0.25s ease-in;
+		}
 	`
-	const VideoRow = styled.div`
-		display: flex;
-		padding: 20px;
-		border: 2px green bold;
-	`
-	const OneVideo = styled.div`
-		border: 2px red bold;
-	`
-
 	return (
-		<div className='video'>
-			<VideoRow>
-				<VideoContainer>
-					<YouTube videoId='5HI_xFQWiYU' />
-				</VideoContainer>
-				<VideoContainer>
-					<YouTube videoId='iIpfWORQWhU' />
-				</VideoContainer>
-				<VideoContainer>
-					<YouTube videoId='yRYFKcMa_Ek' />
-				</VideoContainer>
-			</VideoRow>
-			<VideoRow>
-				<VideoContainer>
-					<YouTube videoId='5HI_xFQWiYU' />
-				</VideoContainer>
-				<VideoContainer>
-					<YouTube videoId='iIpfWORQWhU' />
-				</VideoContainer>
-				<VideoContainer>
-					<YouTube videoId='yRYFKcMa_Ek' />
-				</VideoContainer>
-			</VideoRow>
-		</div>
+		<VideoPlayer>
+			<YouTube videoId={video} />
+		</VideoPlayer>
 	)
 }
 
