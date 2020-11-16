@@ -11,7 +11,7 @@ function Video({ video }) {
 		box-shadow: 0px 6px 18px -2px rgba(0, 0, 0, 0.75);
 		&:hover {
 			transform: scale(1.07);
-			transition: 0.28s ease-in;
+			transition: 0.25s ease-in;
 		}
 	`
 	return (
