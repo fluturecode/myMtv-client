@@ -1,4 +1,5 @@
 ![Screen Shot 2020-11-15 at 2 36 19 AM](https://user-images.githubusercontent.com/59614789/99179398-65155900-26eb-11eb-80a2-209de4c8741b.png)
+
 # React YouTube Music Player App
 
 This repository using React and Firebase to sping up a simple music video player app.
@@ -19,13 +20,13 @@ You will also see any lint errors in the console.
 
 ## Emotion Styled-Components
 
-Run "yarn add @emotion/styled @emotion/react ". Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported. [https://emotion.sh/docs/introduction]
+Run "yarn add @emotion/styled @emotion/react @emotion/core". Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported. [https://emotion.sh/docs/introduction]
 
 ## React-You-Tube
 
 A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add @emotion/styled".
 
-## Deployment 
+## Deployment
 
 This app was deployed with FIREBASE. To deploy, create your project in Firebase [https://firebase.google.com/] .\
  From the terminal "firebase init".\
@@ -33,5 +34,5 @@ This app was deployed with FIREBASE. To deploy, create your project in Firebase 
  "Use as public directory" - input "build" (do not say 'yes' or the app will not deploy properly).\
  "Configure as a single-page app" - "yes".\
  "Setup automatic builds and deploys with GitHub?" - "no".\
-  Before deployment run "yarn run build.\
+ Before deployment run "yarn run build.\
  "Firebase deploy"
