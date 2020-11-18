@@ -23,7 +23,7 @@ Run "yarn add @emotion/react". Emotion is a library designed for writing css sty
 
 ## React-You-Tube
 
-A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add react-youtube".
+A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add @emotion/styled".
 
 ## Deployment 
 
