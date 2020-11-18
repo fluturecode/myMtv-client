@@ -23,11 +23,9 @@ const Header = () => {
 	`
 
 	return (
-		<>
-			<HeaderContainer>
-				<LogoImage src={mtv_logo} />
-			</HeaderContainer>
-		</>
+		<HeaderContainer>
+			<LogoImage src={mtv_logo} />
+		</HeaderContainer>
 	)
 }
 
