@@ -1,4 +1,5 @@
 ![Screen Shot 2020-11-15 at 2 36 19 AM](https://user-images.githubusercontent.com/59614789/99179398-65155900-26eb-11eb-80a2-209de4c8741b.png)
+This repository using React and Firebase to sping up a simple music video player app.
 
 # Getting Started with Create React App
 
@@ -17,6 +18,10 @@ You will also see any lint errors in the console.
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## React-You-Tube
+
+A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add react-youtube".
 
 ### Deployment 
 
