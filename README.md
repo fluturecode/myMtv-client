@@ -20,11 +20,11 @@ You will also see any lint errors in the console.
 
 ## Emotion Styled-Components
 
-Run "yarn add @emotion/styled @emotion/react @emotion/core". Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported. [https://emotion.sh/docs/introduction]
+Run "yarn add @emotion/styled @emotion/core". Emotion is a library designed for writing css styles with JavaScript. It provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported. [https://emotion.sh/docs/introduction]
 
 ## React-You-Tube
 
-A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add @emotion/styled".
+A simple React component acting as a thin layer over the YouTube IFrame Player API. To install "yarn add react-youtube" For more information visit [https://www.npmjs.com/package/react-youtube].
 
 ## Deployment
 
