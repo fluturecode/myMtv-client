@@ -29,7 +29,7 @@ const Videos = () => {
 		<VideosContainer>
 			<VideoRow>
 				{videoList.map((video, index) => (
-					<Video key={index} video={videoList.videoId} />
+					<Video key={index} video={video.videoId} />
 				))}
 			</VideoRow>
 		</VideosContainer>
