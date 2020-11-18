@@ -28,8 +28,8 @@ const Videos = () => {
 	return (
 		<VideosContainer>
 			<VideoRow>
-				{videoList.map((videoList) => (
-					<Video video={videoList.videoId} />
+				{videoList.map((video, index) => (
+					<Video key={index} video={videoList.videoId} />
 				))}
 			</VideoRow>
 		</VideosContainer>
