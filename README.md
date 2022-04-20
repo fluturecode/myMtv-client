@@ -2,7 +2,7 @@
 
 # React YouTube Music Player App
 
-This repository using React and Firebase to sping up a simple music video player app.
+This repository is built with React and Firebase, to spine up a simle music video player app.
 
 ## Getting Started with Create React App
 
