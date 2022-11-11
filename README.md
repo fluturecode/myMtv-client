@@ -2,7 +2,7 @@
 
 # React YouTube Music Player App
 
-This repository is built with React and Firebase, to spine up a simle music video player app.
+This demo app is meant to go alongside the live code demo of MyMTV App.
 
 ## Getting Started with Create React App
 
