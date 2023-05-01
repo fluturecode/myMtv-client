@@ -7,8 +7,8 @@ const Videos = () => {
 		{ videoId: "8SbUC-UaAxE" },
 		{ videoId: "R8AOAap6_k4" },
 		{ videoId: "aGSKrC7dGcY" },
-		{ videoId: "N3oCS85HvpY" },
-		{ videoId: "uxX2gA18grk" },
+		{ videoId: "xuZA6qiJVfU" },
+		{ videoId: "iIpfWORQWhU" },
 		{ videoId: "kxNJV83EMJw" },
 		{ videoId: "Y3ywicffOj4" },
 	]
