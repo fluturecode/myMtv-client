@@ -4,6 +4,7 @@
 	"private": true,
 	"dependencies": {
 		"@babel/runtime": "^7.12.5",
+		"@coral-xyz/xnft-cli": "^0.6.6-latest.4917",
 		"@emotion/core": "^10.1.1",
 		"@emotion/styled": "^10.0.27",
 		"@testing-library/jest-dom": "^5.11.4",
