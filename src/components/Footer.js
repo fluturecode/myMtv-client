@@ -10,11 +10,7 @@ height: 8px;
 const Footer = () => {
   return (
     <Container>
-<<<<<<< HEAD
       <Text>For demo purposes only, all rights reserved &copy; 2023 MTV</Text>
-=======
-      <i>This is for demo purposes only, all rights reserved &copy; MTV.</i>
->>>>>>> parent of 6b36a7e (updated footer text;)
     </Container>
   )
 }
