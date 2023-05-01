@@ -1,4 +1,5 @@
-import Header from "./Header"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 import Videos from "./Videos"
 import styled from "@emotion/styled"
 
@@ -12,6 +13,7 @@ function App() {
 		<AppContainer>
 			<Header />
 			<Videos />
+			<Footer />
 		</AppContainer>
 	)
 }

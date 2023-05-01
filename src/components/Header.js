@@ -1,9 +1,8 @@
 import React from "react"
-import mtv_logo from "./mtv_logo.jpg"
+import mtv_logo from "../assets/mtv_logo.jpg"
 import styled from "@emotion/styled"
 
-const Header = () => {
-	const HeaderContainer = styled.div`
+const HeaderContainer = styled.div`
 		background-color: black;
 		height: 80px;
 		border-radius: 10px;
@@ -21,6 +20,7 @@ const Header = () => {
 		border-radius: 10px;
 		position: relative;
 	`
+const Header = () => {
 
 	return (
 		<HeaderContainer>
