@@ -2,7 +2,7 @@ import React from "react"
 import mtv_logo from "../assets/mtv_logo.jpg"
 import styled from "@emotion/styled"
 
-const HeaderContainer = styled.div`
+const HeaderContainer = styled.View`
 		background-color: black;
 		height: 80px;
 		border-radius: 10px;
@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
 		position: relative;
 	`
 
-	const LogoImage = styled.img`
+	const LogoImage = styled.Image`
 		height: 140%;
 		object-fit: contain;
 		border-radius: 10px;
