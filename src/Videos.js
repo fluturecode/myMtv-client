@@ -11,6 +11,10 @@ const Videos = () => {
 		{ videoId: "iIpfWORQWhU" },
 		{ videoId: "kxNJV83EMJw" },
 		{ videoId: "Y3ywicffOj4" },
+		{ videoId: "RP0_8J7uxhs" },
+		{ videoId: "5HI_xFQWiYU" },
+		{ videoId: "pWxJEIz7sSA" },
+		{ videoId: "d1n_O6DeS1c" },
 	]
 	const VideosContainer = styled.div`
 		background-color: #575352;
